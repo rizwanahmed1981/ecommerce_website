@@ -10,16 +10,16 @@ const NavBar = () => {
         <nav className='w-full border-b-2 border-gray-400 px-4'>
             <div className=" max-w-7xl mx-auto flex items-center justify-between">
 
-                <h1 className="font-bold text-2xl">Exclusive</h1>
+                <h1 className="font-bold text-3xl">Exclusive</h1>
                 <div className='hidden md:flex gap-4'>
                     <Link href='#' className='font-normal text-[16px]'>Home</Link>
                     <Link href='#' className='font-normal text-[16px]'>Contact</Link>
                     <Link href='#' className='font-normal text-[16px]'>About</Link>
                     <Link href='#' className='font-normal text-[16px]'>sign Up</Link>
                 </div>
-                <div className='hidden md:flex gap-4'>
+                <div className='hidden md:flex gap-4 py-2'>
                     <div className="relative">
-                        <Input placeholder='Search Products' className='bg-[#F5F5F5] rounded' />
+                        <Input placeholder='what are you looking for?' className='bg-[#F5F5F5] rounded w-60' />
                         <Search className='absolute right-2 top-2' />
                     </div>
                     <Button variant={"outline"} size={"icon"} className='rounded-full'>
