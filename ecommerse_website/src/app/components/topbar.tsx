@@ -6,7 +6,7 @@ import React from 'react'
 
 const Topbar = () => {
     return (
-        <div className='w-full p-3 bg-black hidden md:flex items-center justify-between'>
+        <div className='w-full px-4 bg-black hidden md:flex items-center justify-between'>
 
             <div className='max-w-7xl mx-auto flex items-center justify-center'>
                 <p className='font-regular text-white'>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%
