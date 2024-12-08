@@ -32,7 +32,7 @@ export default function RootLayout({
       >
         <Topbar />
         <NavBar />
-        <main>
+        <main className="max-w-7xl mx-auto container">
           {children}
         </main>
       </body>

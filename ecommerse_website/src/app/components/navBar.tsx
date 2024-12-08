@@ -7,7 +7,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/co
 
 const NavBar = () => {
     return (
-        <nav className='w-full border-b-2 border-gray-400 px-4'>
+        <nav className='w-full border-b-2 border-gray-400 px-4 mt-4 mb-2'>
             <div className=" max-w-7xl mx-auto flex items-center justify-between">
 
                 <h1 className="font-bold text-3xl">Exclusive</h1>
